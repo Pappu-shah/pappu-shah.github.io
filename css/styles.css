@@ -10115,7 +10115,7 @@ h3 {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
@@ -10123,6 +10123,7 @@ h3 {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  border-radius: 50%;
 }
 
 @media (min-width: 992px) {
