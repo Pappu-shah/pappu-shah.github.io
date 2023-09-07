@@ -13,7 +13,7 @@
     />
 
     <link rel="icon" href="assets/img/perfil.png" type="image/icon type" />
-    <title>Pappu</title>
+    <title>Pappu's Website</title>
   </head>
   <body>
     <!--===== HEADER =====-->
@@ -53,7 +53,8 @@
         <div class="home__data">
           <h1 class="home__title">
             Hi,<br />I'am <span class="home__title-color">Pappu</span><br />
-            Student
+            Computer <br />
+            Engineer
           </h1>
 
           <a
@@ -71,10 +72,22 @@
             class="home__social-icon"
             ><i class="bx bxl-linkedin"></i
           ></a>
-          <a href="" class="home__social-icon"
-            ><i class="bx bxl-behance"></i
+          <a
+            target="_blank"
+            href="https://www.facebook.com/pappukumarshah8"
+            class="home__social-icon"
+            ><i class="bx bxl-facebook"></i
           ></a>
-          <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a>
+          <a
+            target="_blank"
+            href="https://github.com/Pappu-shah"
+            class="home__social-icon"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <!-- <a href="" class="home__social-icon"
+            ><i class="bx bxl-behance"></i
+          ></a> -->
+          <!-- <a href="" class="home__social-icon"><i class="bx bxl-github"></i></a> -->
         </div>
 
         <div class="home__img">
@@ -97,7 +110,7 @@
                 class="home__blob-img"
                 x="50"
                 y="60"
-                href="assets/img/perfil.png"
+                href="assets/img/Photo-removebg.png"
               />
             </g>
           </svg>
@@ -116,7 +129,7 @@
           <div>
             <h2 class="about__subtitle">I'am Pappu</h2>
             <p class="about__text">
-              Hi, I am a Computer Engineering student with 6 months of
+              Hi, I am a Computer Engineering graduate with 6 months of
               experience in software development.<br /><br />
               My goal is to pursue a challenging career and be part of
               progressive organization that gives a scope to enhance my
@@ -234,7 +247,7 @@
               required
             />
             <input
-              type="mail"
+              type="email"
               id="email"
               placeholder="Email"
               class="contact__input"
@@ -260,9 +273,25 @@
     <footer class="footer">
       <p class="footer__title">Pappu</p>
       <div class="footer__social">
-        <a href="#" class="footer__icon"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+        <a
+          target="_blank"
+          href="https://www.facebook.com/pappukumarshah8"
+          class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a
+          target="_blank"
+          href="https://github.com/Pappu-shah"
+          class="footer__icon"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <!-- <a href="#" class="footer__icon"><i class="bx bxl-twitter"></i></a> -->
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/pappu-shah-642063232"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
       </div>
       <p class="footer__copy">2023 &#169; Pappu Shah. All rigths reserved</p>
     </footer>
@@ -285,7 +314,8 @@
           To: "inbox@pappukumarshah.com.np",
           From: "enquiry@pappukumarshah.com.np",
           Subject: "Message From Website",
-          Body: "Name: " + name + "<br> Email: " + email + "<br> Message: " + text,
+          Body:
+            "Name: " + name + "<br> Email: " + email + "<br> Message: " + text,
         }).then((message) => {
           if (message == "OK") {
             Swal.fire(
